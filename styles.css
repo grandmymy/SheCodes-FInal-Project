@@ -1,0 +1,58 @@
+<style>
+        .container1 {
+          margin: 20px;
+          padding: 20px;
+        }
+        .container2 {
+          border: 10px solid grey;
+          margin-top: 20px;
+          margin-left: 50px;
+          margin-right: 50px;
+
+          padding: 2px;
+        }
+        .container3 {
+          margin: 20px;
+          margin-left: 40px;
+          padding: 20px;
+        }
+        .container4 {
+          margin: 2px;
+        }
+        .container4:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+        .container1:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .container2:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+        }
+        .columnTown{
+          float: left;
+          width: 33%;
+          padding: 10px; 
+        }
+        .columnWeather {
+          float: left;
+          width: 20%;
+          padding: 10px;
+        }
+        #search1 {
+          border: 5px solid gray;
+          float: right;
+          margin-right: 10px;
+        }
+        </style>
